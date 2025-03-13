@@ -22,6 +22,7 @@ source ~/.zshr
 pip install virtualenv
 
 python3 -m venv mi_entorno
+
 source mi_entorno/bin/activate
 
 python3 -m pip install
@@ -40,6 +41,9 @@ Instalar
 pip install dash plotly speedtest-cli
 pip kaleido
 pip reportlab
+
+recuerda copiar el archivo network_monitor.py en el entorno virtual
+cp network_monitor.py /.mi_entorno
 
 python network_monitor.py
 
